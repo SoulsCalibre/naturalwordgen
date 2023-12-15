@@ -21,8 +21,8 @@ pip install nltk
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/yourproject.git
-cd NaturalWordGen
+git clone https://github.com/SoulsCalibre/naturalwordgen
+cd naturalwordgen
 python main.py
 ```
 
