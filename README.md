@@ -21,14 +21,16 @@ pip install nltk
 ## Installation
 
 ```bash
-git clone https://github.com/SoulsCalibre/naturalwordgen
-cd naturalwordgen
+git clone https://github.com/yourusername/yourproject.git
+cd NaturalWordGen
 python main.py
 ```
 
 ## Usage
 
-Upon launching the program, you'll encounter an intuitive interface that prompts you to generate unique words. Here's a snapshot of what to expect:
+### main.py
+
+This is the main script that generates words
 
 ```
 ***
@@ -41,6 +43,12 @@ herzfel (HH ER1 Z F EH0 L)
 ufind (Y UW1 F AY2 N D)
 audounpe (AO1 D AW2 N P EY1)
 ```
+
+### reconstruct.py
+
+This is a script that allows you to type in your own words to see how well the AI reconstructs the word
+
+![Reconstruct](images/reconstruct.png)
 
 ## How it Works
 
@@ -62,8 +70,8 @@ The Natural Word Generator employs the cmudict dataset from the nltk library for
 
 - **Overlap Coefficient:** The Overlap Coefficient is a ratio of the size of the intersection of two sets to the size of the smaller set. A higher overlap coefficient suggests a greater degree of similarity.
 
-![Word to Phon](eval_to_phon.png)
-![Phon to Word](eval_to_word.png)
+![Word to Phon](images/eval_to_phon.png)
+![Phon to Word](images/eval_to_word.png)
 
 # Citations
 
